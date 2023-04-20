@@ -1,0 +1,17 @@
+<%- include('header'); -%>
+<h1 class="box" id="heading"><%= Title %></h1>
+<div class="box">
+  <%for (const item of items) {%>
+  <div class="item">
+    <input type="checkbox" />
+    <p><%=item%></p>
+    <br />
+  </div>
+
+  <% }%>
+  <form class="item" action="/" method="post">
+    <input type="text" name="todo" placeholder="New Item" autocomplete="off" />
+    <button type="submit" name="button" value="<%= Title %>">+</button>
+  </form>
+</div>
+<%- include('footer'); -%>
