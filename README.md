@@ -1,6 +1,8 @@
 # To-Do-List
 
-!In order to work, NodeJS and its modules must be installed at first
+!In order to work, NodeJS and its modules must be installed at first.
+ABOUT THIS PROJECT
+In this project
 
 ABOUT THIS PROJECT  
 In this project we will use EJS to create template for the app.
